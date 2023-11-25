@@ -1,0 +1,316 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Babashka" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/aleksandruzienko/clojure/passman ; bb --nrepl-server 59250 ; popd
+; Using host:port 127.0.0.1:59250 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+#'passman.app/cli-options
+clj꞉passman.app꞉> 
+#'passman.app/cli-options
+clj꞉passman.app꞉> 
+#'passman.app/cli-options
+clj꞉passman.app꞉> 
+#'passman.app/password-input
+clj꞉passman.app꞉> 
+Enter your master key:
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/app.clj:1:1
+clj꞉passman.app꞉> 
+Enter your master key:
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/app.clj:1:1
+clj꞉passman.app꞉> 
+; clojure.lang.ArityException: Wrong number of args (1) passed to: sci.impl.fns/fun/arity-0--1162 user /Users/aleksandruzienko/clojure/passman/src/passman/app.clj:1:1
+clj꞉passman.app꞉> 
+Enter your master key:
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/app.clj:1:1
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: generate-password user /Users/aleksandruzienko/clojure/passman/src/passman/app.clj:1:1
+clj꞉passman.app꞉> 
+#'passman.app/generate-password
+clj꞉passman.app꞉> 
+"TI#TD*@M>9"
+clj꞉passman.app꞉> 
+"\\h_wP-f$%(/K1sg19T'JP"
+clj꞉passman.app꞉> 
+"I>-D_hhfW:LSP6n_).R^oF;<hw:-4py(D)H<EUL]rf>_^=:)@Kb!>xNcCTZK-t#bkm%9G]1U@iolD<?z^d_<kE1@?<zX`_O7@]$f)2b)m_VK?%D_?t\"zL#V-wkW$OFvb2u&'_zPLbpY//ynUG4&G]F\"iaVYfu>Dbhnj2(FOD;v<$/J4RZcO(bHpaz,e%s%VkT0b.T=Hvd"
+clj꞉passman.app꞉> 
+#'passman.clipboard/copy
+clj꞉passman.clipboard꞉> 
+""
+clj꞉passman.clipboard꞉> 
+wtf
+true
+clj꞉passman.stash꞉> 
+[{:key "facebook.comtest@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:47:24Z",
+  :modified "2023-11-19T09:47:24Z",
+  :id 1,
+  :parent-id 0,
+  :hkey
+  "0640f6bd623d5f6627408c915428a88c444095b971a1dfcc928a86ac97c5eb9c19c2e69f22339139a44953c55a2e42fd0acd43fdac89e1fc1bd797bd243a7d52",
+  :version 1}
+ {:key "facebook.com:test@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:55:52Z",
+  :modified "2023-11-19T09:55:52Z",
+  :id 2,
+  :parent-id 0,
+  :hkey
+  "29d85f69bb22b7efcd70552716bc7edd4adc70da2642420154fc8950db5d62ec38c996acdddb2dad5068de5d5298ab5645877dc359619d2ff6aa73ed07a8c85f",
+  :version 1}
+ {:key "yandex2.ru:test1@test.com",
+  :hvalue
+  "65097af4851cc2223713cb7ac5ed70cc4d9d4ffa35f6e6a275718b23b4eb339380a036224eb191bc1652477ecc8361802746623d448e5117b4d307f0cafbad86",
+  :value "<i<LteE9/`XsXTP2<=ann$@ad61(I*F-+%K1Y@kPv0",
+  :created "2023-11-25T06:05:12Z",
+  :modified "2023-11-25T06:05:12Z",
+  :id 3,
+  :parent-id 0,
+  :hkey
+  "02b6b01b4fba7a6ed18b5c48e17c914169b7e9a43dc2adefcf140d706bca857e4708efca72de59e374ddc547ffedc233335a54e604b335670428094f8d3d1f26",
+  :version 1}
+ {:key "yandex3.ru:test1@test.com",
+  :hvalue
+  "4eb0a13df430ecb2ae0de76ec041667715a73da40dc7da78e1f5d4d025bfbb11589a58c8eb8a37998c9bc6301bad0377ffadb94c40044b20665edbccc94e5e89",
+  :value ".S9\"jw'6f!8AEjsjdmORC=6XxAYR>(aY/T-NzYYn,Y",
+  :created "2023-11-25T06:08:15Z",
+  :modified "2023-11-25T06:08:15Z",
+  :id 4,
+  :parent-id 0,
+  :hkey
+  "0888521fb83f4141746278dc321b2dd41ebf57c49445ddb8b8e94a22801dc07ea52713852cb8dbb5f1d9b362e4423e81d62d6139fe5153fab84840fb230db741",
+  :version 1}
+ {:key "yandex4.ru:test1@test.com",
+  :hvalue
+  "d64d61fb31e450b15d878eafa3695636f877b0eedcd6cef549ec4479fcbe7c6728de81302df54e126b05b9f1cf4f2dbfb75ed19707423abdc0cc784dbd65e500",
+  :value "o\"C451kc@%DF]zR/Ay&LaHJk=i$H\"]Pno*3)C9T\"J4\\*$Gl;%to^m%NW",
+  :created "2023-11-25T06:18:44Z",
+  :modified "2023-11-25T06:18:44Z",
+  :id 5,
+  :parent-id 0,
+  :hkey
+  "baea3a4dd5a351ab7b9a9ee0e720de21275e43fc4f3c9520f40d43a403b966e4cfcc888460ddeabbfa5f8e529383d7c06a51a82ec1cfdcc5e099f8bc2f54e54b",
+  :version 1}]
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: resolve-key user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:2:4
+clj꞉passman.stash꞉> 
+#'passman.stash/resolve-key
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.IFn user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Key already exists user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:16:3
+clj꞉passman.stash꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.IFn user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+[{:key "facebook.comtest@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:47:24Z",
+  :modified "2023-11-19T09:47:24Z",
+  :id 1,
+  :parent-id 0,
+  :hkey
+  "0640f6bd623d5f6627408c915428a88c444095b971a1dfcc928a86ac97c5eb9c19c2e69f22339139a44953c55a2e42fd0acd43fdac89e1fc1bd797bd243a7d52",
+  :version 1}
+ {:key "facebook.com:test@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:55:52Z",
+  :modified "2023-11-19T09:55:52Z",
+  :id 2,
+  :parent-id 0,
+  :hkey
+  "29d85f69bb22b7efcd70552716bc7edd4adc70da2642420154fc8950db5d62ec38c996acdddb2dad5068de5d5298ab5645877dc359619d2ff6aa73ed07a8c85f",
+  :version 1}
+ {:key "yandex2.ru:test1@test.com",
+  :hvalue
+  "65097af4851cc2223713cb7ac5ed70cc4d9d4ffa35f6e6a275718b23b4eb339380a036224eb191bc1652477ecc8361802746623d448e5117b4d307f0cafbad86",
+  :value "<i<LteE9/`XsXTP2<=ann$@ad61(I*F-+%K1Y@kPv0",
+  :created "2023-11-25T06:05:12Z",
+  :modified "2023-11-25T06:05:12Z",
+  :id 3,
+  :parent-id 0,
+  :hkey
+  "02b6b01b4fba7a6ed18b5c48e17c914169b7e9a43dc2adefcf140d706bca857e4708efca72de59e374ddc547ffedc233335a54e604b335670428094f8d3d1f26",
+  :version 1}
+ {:key "yandex3.ru:test1@test.com",
+  :hvalue
+  "4eb0a13df430ecb2ae0de76ec041667715a73da40dc7da78e1f5d4d025bfbb11589a58c8eb8a37998c9bc6301bad0377ffadb94c40044b20665edbccc94e5e89",
+  :value ".S9\"jw'6f!8AEjsjdmORC=6XxAYR>(aY/T-NzYYn,Y",
+  :created "2023-11-25T06:08:15Z",
+  :modified "2023-11-25T06:08:15Z",
+  :id 4,
+  :parent-id 0,
+  :hkey
+  "0888521fb83f4141746278dc321b2dd41ebf57c49445ddb8b8e94a22801dc07ea52713852cb8dbb5f1d9b362e4423e81d62d6139fe5153fab84840fb230db741",
+  :version 1}
+ {:key "yandex4.ru:test1@test.com",
+  :hvalue
+  "d64d61fb31e450b15d878eafa3695636f877b0eedcd6cef549ec4479fcbe7c6728de81302df54e126b05b9f1cf4f2dbfb75ed19707423abdc0cc784dbd65e500",
+  :value "o\"C451kc@%DF]zR/Ay&LaHJk=i$H\"]Pno*3)C9T\"J4\\*$Gl;%to^m%NW",
+  :created "2023-11-25T06:18:44Z",
+  :modified "2023-11-25T06:18:44Z",
+  :id 5,
+  :parent-id 0,
+  :hkey
+  "baea3a4dd5a351ab7b9a9ee0e720de21275e43fc4f3c9520f40d43a403b966e4cfcc888460ddeabbfa5f8e529383d7c06a51a82ec1cfdcc5e099f8bc2f54e54b",
+  :version 1}]
+clj꞉passman.stash꞉> 
+#'passman.stash/add-password
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Key already exists user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:16:3
+clj꞉passman.stash꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.IFn user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+nil
+clj꞉passman.stash꞉> 
+nil
+nil
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+nil
+clj꞉passman.stash꞉> 
+[{:key "facebook.comtest@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:47:24Z",
+  :modified "2023-11-19T09:47:24Z",
+  :id 1,
+  :parent-id 0,
+  :hkey
+  "0640f6bd623d5f6627408c915428a88c444095b971a1dfcc928a86ac97c5eb9c19c2e69f22339139a44953c55a2e42fd0acd43fdac89e1fc1bd797bd243a7d52",
+  :version 1}
+ {:key "facebook.com:test@test.com",
+  :hvalue
+  "829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4",
+  :value "secret",
+  :created "2023-11-19T09:55:52Z",
+  :modified "2023-11-19T09:55:52Z",
+  :id 2,
+  :parent-id 0,
+  :hkey
+  "29d85f69bb22b7efcd70552716bc7edd4adc70da2642420154fc8950db5d62ec38c996acdddb2dad5068de5d5298ab5645877dc359619d2ff6aa73ed07a8c85f",
+  :version 1}
+ {:key "yandex2.ru:test1@test.com",
+  :hvalue
+  "65097af4851cc2223713cb7ac5ed70cc4d9d4ffa35f6e6a275718b23b4eb339380a036224eb191bc1652477ecc8361802746623d448e5117b4d307f0cafbad86",
+  :value "<i<LteE9/`XsXTP2<=ann$@ad61(I*F-+%K1Y@kPv0",
+  :created "2023-11-25T06:05:12Z",
+  :modified "2023-11-25T06:05:12Z",
+  :id 3,
+  :parent-id 0,
+  :hkey
+  "02b6b01b4fba7a6ed18b5c48e17c914169b7e9a43dc2adefcf140d706bca857e4708efca72de59e374ddc547ffedc233335a54e604b335670428094f8d3d1f26",
+  :version 1}
+ {:key "yandex3.ru:test1@test.com",
+  :hvalue
+  "4eb0a13df430ecb2ae0de76ec041667715a73da40dc7da78e1f5d4d025bfbb11589a58c8eb8a37998c9bc6301bad0377ffadb94c40044b20665edbccc94e5e89",
+  :value ".S9\"jw'6f!8AEjsjdmORC=6XxAYR>(aY/T-NzYYn,Y",
+  :created "2023-11-25T06:08:15Z",
+  :modified "2023-11-25T06:08:15Z",
+  :id 4,
+  :parent-id 0,
+  :hkey
+  "0888521fb83f4141746278dc321b2dd41ebf57c49445ddb8b8e94a22801dc07ea52713852cb8dbb5f1d9b362e4423e81d62d6139fe5153fab84840fb230db741",
+  :version 1}
+ {:key "yandex4.ru:test1@test.com",
+  :hvalue
+  "d64d61fb31e450b15d878eafa3695636f877b0eedcd6cef549ec4479fcbe7c6728de81302df54e126b05b9f1cf4f2dbfb75ed19707423abdc0cc784dbd65e500",
+  :value "o\"C451kc@%DF]zR/Ay&LaHJk=i$H\"]Pno*3)C9T\"J4\\*$Gl;%to^m%NW",
+  :created "2023-11-25T06:18:44Z",
+  :modified "2023-11-25T06:18:44Z",
+  :id 5,
+  :parent-id 0,
+  :hkey
+  "baea3a4dd5a351ab7b9a9ee0e720de21275e43fc4f3c9520f40d43a403b966e4cfcc888460ddeabbfa5f8e529383d7c06a51a82ec1cfdcc5e099f8bc2f54e54b",
+  :version 1}]
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+nil
+clj꞉passman.stash꞉> 
+#'passman.stash/resolve-key
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+nil
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+"secret"
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Unmatched delimiter: ], expected: ) to match ( at [1 1] user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:7:62
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+secret
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:7:64
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+; clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentHashMap user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:8:74
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+{:key facebook.com:test@test.com, :hvalue 829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4, :value secret, :created 2023-11-19T09:55:52Z, :modified 2023-11-19T09:55:52Z, :id 2, :parent-id 0, :hkey 29d85f69bb22b7efcd70552716bc7edd4adc70da2642420154fc8950db5d62ec38c996acdddb2dad5068de5d5298ab5645877dc359619d2ff6aa73ed07a8c85f, :version 1}
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:7:64
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+({:key facebook.com:test@test.com, :hvalue 829d20a1680e9910b3eb384bb7aac26f99bb86917685dde900d79eae703db9abed18b914bb51728f128cdbedf70d65ef545c4e05e3f0c772f22cd86c40e49ea4, :value secret, :created 2023-11-19T09:55:52Z, :modified 2023-11-19T09:55:52Z, :id 2, :parent-id 0, :hkey 29d85f69bb22b7efcd70552716bc7edd4adc70da2642420154fc8950db5d62ec38c996acdddb2dad5068de5d5298ab5645877dc359619d2ff6aa73ed07a8c85f, :version 1})
+; java.lang.NullPointerException user /Users/aleksandruzienko/clojure/passman/src/passman/stash.clj:7:64
+clj꞉passman.stash꞉> 
+#'passman.stash/get-password
+clj꞉passman.stash꞉> 
+"secret"
+clj꞉passman.stash꞉> 
+#'passman.app/get-password-from-stash
+clj꞉passman.app꞉> 
